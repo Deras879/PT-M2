@@ -1,0 +1,24 @@
+// Código de Nav acá
+nav{
+    .flex(column, center, center);
+    h1{
+        font-size: 35px;
+    }
+    .nav-items{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 54%;
+       span{
+        font-size: 18px;
+        padding: 3px 0px 15px 0px;
+       } 
+    }
+
+    @media @phone {
+        .nav-items{
+          width: 100%;
+        }
+      
+    }
+}
