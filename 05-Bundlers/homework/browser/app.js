@@ -1,7 +1,8 @@
 
-  var whiteboard = require("./whiteboard");
-  var socket = require("socket.io-client");
-
+  const whiteboard = require("./whiteboard");
+  console.log(whiteboard);
+  const socket = require('socket.io-client');
+console.log(socket);
   socket.on("connect", function () {
     console.log("Connected!");
   });

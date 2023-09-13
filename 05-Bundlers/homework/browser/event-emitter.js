@@ -35,6 +35,4 @@
       listener.apply(null, remainingArgs);
     });
   };
-module.exports = {
-  EventEmitter
-};
+module.exports = EventEmitter;
