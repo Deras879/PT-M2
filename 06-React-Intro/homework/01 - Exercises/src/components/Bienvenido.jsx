@@ -16,7 +16,7 @@ export default function Bienvenido() {
             return <li>{skill}</li>
           }))}
       </ol>
-      <Botones m1={alerts.m1} m2={alerts.m2}/>
+      <Botones props={alerts}/>
     </div>
   );
 }
